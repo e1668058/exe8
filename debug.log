@@ -1,0 +1,8 @@
+[27-Feb-2020 20:15:59 UTC] PHP Notice:  Undefined variable: args2 in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 58
+[27-Feb-2020 20:34:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getthe_excerpt() in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php:47
+Stack trace:
+#0 C:\xampp\htdocs\allen_veille2\wp-includes\template-loader.php(98): include()
+#1 C:\xampp\htdocs\allen_veille2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\allen_veille2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 47
