@@ -6,3 +6,19 @@ Stack trace:
 #2 C:\xampp\htdocs\allen_veille2\index.php(17): require('C:\\xampp\\htdocs...')
 #3 {main}
   thrown in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 47
+[27-Feb-2020 22:26:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp\htdocs\allen_veille2\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Provider\Lorem.php on line 95
+[27-Feb-2020 22:26:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in C:\xampp\htdocs\allen_veille2\wp-content\plugins\fakerpress\vendor\fzaninotto\faker\src\Faker\Provider\Lorem.php on line 95
+[27-Feb-2020 22:40:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73 and at least 1 expected in C:\xampp\htdocs\allen_veille2\wp-includes\media.php:983
+Stack trace:
+#0 C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php(73): wp_get_attachment_image()
+#1 C:\xampp\htdocs\allen_veille2\wp-includes\template-loader.php(98): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\allen_veille2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\allen_veille2\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\allen_veille2\wp-includes\media.php on line 983
+[27-Feb-2020 22:42:09 UTC] PHP Notice:  Undefined variable: POST in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73
+[27-Feb-2020 22:42:09 UTC] PHP Notice:  Undefined variable: POST in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73
+[27-Feb-2020 22:42:09 UTC] PHP Notice:  Undefined variable: POST in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73
+[27-Feb-2020 22:42:09 UTC] PHP Notice:  Undefined variable: POST in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73
+[27-Feb-2020 22:42:09 UTC] PHP Notice:  Undefined variable: POST in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73
+[27-Feb-2020 22:42:09 UTC] PHP Notice:  Undefined variable: POST in C:\xampp\htdocs\allen_veille2\wp-content\themes\underscores-enfant\front-page.php on line 73

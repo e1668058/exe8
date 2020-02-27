@@ -61,16 +61,21 @@ get_header();
         
         
         /* The 2nd Query (without global var) */
-        // $query2 = new WP_Query( $args2 );
+        $args2 = array(
+            "category_name" => "évènement",
+        );
+        $query2 = new WP_Query( $args2 );
         
         // // The 2nd Loop
-        // while ( $query2->have_posts() ) {
-        //     $query2->the_post();
-        //     echo '<li>' . get_the_title( $query2->post->ID ) . '</li>';
-        // }
+        while ( $query2->have_posts() ) {
+            $query2->the_post();
+            echo '<h3>' . get_the_title( $query2->post->ID ) . '</h3>';
+            echo '<p>'.get_the_excerpt() .'</p>';
+            echo get_the_post_thumbnail($post, "thumbnail");
+        }
         
         // // Restore original Post Data
-        // wp_reset_postdata();
+        wp_reset_postdata();
         
         ?>
 
