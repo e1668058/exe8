@@ -5,10 +5,38 @@
  */
 
 .wp-block-cgb-block-my-block  {
+  display: flex;
+  flex-direction: row;
   background: $red;
   border: 0.2rem solid $black;
   color: $black;
   margin: 0 auto;
   max-width: 740px;
   padding: 2rem;
+
+  .etoile {
+    display: block;
+    background: green;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+
+  .bateau {
+    display: block;
+    background: white;
+    padding-top: 50px;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(46% 69%, 100% 50%, 73% 100%, 23% 100%, 0% 50%);
+  }
+
+  .lune {
+    display: block;
+    background: green;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(53% 8%, 74% 14%, 96% 34%, 99% 54%, 76% 35%, 53% 32%, 29% 36%, 3% 52%, 11% 33%, 23% 19%);
+  }
+
 }

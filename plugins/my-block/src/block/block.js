@@ -51,17 +51,9 @@ registerBlockType( 'cgb/block-my-block', {
 		// Creates a <p class='wp-block-cgb-block-my-block'></p>.
 		return (
 			<div className={ props.className }>
-				<p>— Hello from the backend.</p>
-				<p>
-					CGB BLOCK: <code>my-block</code> is a new Gutenberg block
-				</p>
-				<p>
-					It was created via{ ' ' }
-					<code>
-						<a href="https://github.com/ahmadawais/create-guten-block">
-							create-guten-block
-						</a>
-					</code>.
+				<p>Ceci est le back: Met ce que tu veux</p>
+				<p>	
+					Je m'appelle Allen.
 				</p>
 			</div>
 		);
@@ -81,18 +73,10 @@ registerBlockType( 'cgb/block-my-block', {
 	save: ( props ) => {
 		return (
 			<div className={ props.className }>
-				<p>— Hello from the frontend.</p>
-				<p>
-					CGB BLOCK: <code>my-block</code> is a new Gutenberg block.
-				</p>
-				<p>
-					It was created via{ ' ' }
-					<code>
-						<a href="https://github.com/ahmadawais/create-guten-block">
-							create-guten-block
-						</a>
-					</code>.
-				</p>
+				<p>Cest le temps de FRONT END</p>
+				<div class="etoile"></div>
+				<div class="bateau"></div>
+				<div class="lune"></div>
 			</div>
 		);
 	},
